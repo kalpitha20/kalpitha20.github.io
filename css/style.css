@@ -1,0 +1,168 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.name, .about, .skill-container, .contact, h2, #top {
+	color: #0C154A;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C154A;
+    padding: 20px 0px;
+
+}
+li {
+	list-style: none;
+}
+.navItem {
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+a:hover {
+	cursor: pointer;
+}
+.name {
+	padding: 2% 15%;
+}
+#archi {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #626673;
+	margin-top: 0px;
+}
+.name > h1 {
+	font-size: 4em;
+}
+.myself {
+    display: flex;
+    justify-content: flex-end;
+}
+.myself > img {
+	margin-left: 10%;
+}
+.about {
+	background-color: #dddddd;
+	padding: 2% 7%;
+}
+
+.about p {
+	font-size: 1.5em;
+	text-align: center;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 600;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 1.2em;
+
+}
+.form-lines {
+	display: flex;
+}
+.form-lines input {
+	margin-left: 20%;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+	width: 100%;
+}
+.contact-info {
+	display: flex;
+}
+.contact-details {
+	width: 30%;
+	font-size: 1.2em;
+}
+.cIcon {
+	padding-top: 3%;
+}
+.cDet {
+	padding-left: 10%;
+	width: 100%;
+}
+.skill-container {
+	background-color: #eeeeee;
+	padding: 2% 5%;
+}
+.skills {
+	display: flex;
+	justify-content: space-around;
+}
+.skills div {
+	box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+	width: 200px;
+	height: 300px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.skills div:hover {
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.skillImage {
+	padding-top: 20%;
+	width: 150px;
+	height: 150px;
+}
+footer {
+	background-color: #0C154A;
+	text-align: center;
+	color: #ffffff;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+#me {
+	
+	width: 30%;
+	height: 30%;
+}
+.in {
+
+}
+button {
+	background-color: #0C154A;
+	border-style: none;	
+	border-radius: 6px;
+	width: 25%;
+	padding: 2%;
+	color: #ffffff;
+	margin-right: 15px;
+}
+.buttons {
+	justify-content: center;
+	padding: 2%;
+}
+.form-lines button {
+	justify-content: space-around;
+}
+#back {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 3% 0% 1% 0%;
+}
+
